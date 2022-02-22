@@ -1,0 +1,126 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.header {
+  background-image: url(../../../src/images/background_1.png);
+}
+.header .container {
+  text-align: center;
+  padding: 270px 0 142px;
+}
+.header__logo {
+  margin-bottom: 48px;
+}
+.header__search {
+  margin-bottom: 107px;
+}
+.header__search-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.header__search-field {
+  max-width: 500px;
+  width: 100%;
+  height: 63px;
+}
+.header__search-field::-webkit-input-placeholder {
+  padding-left: 113px;
+  letter-spacing: 2.8px;
+}
+.header__search-field::-moz-placeholder {
+  padding-left: 113px;
+  letter-spacing: 2.8px;
+}
+.header__search-field:-ms-input-placeholder {
+  padding-left: 113px;
+  letter-spacing: 2.8px;
+}
+.header__search-field::-ms-input-placeholder {
+  padding-left: 113px;
+  letter-spacing: 2.8px;
+}
+.header__search-field::placeholder {
+  padding-left: 113px;
+  letter-spacing: 2.8px;
+}
+.header__search-button {
+  position: relative;
+  width: 150px;
+  height: 61px;
+  background-color: #5474fd;
+  border: 2px solid #ffffff;
+}
+.header__search-button::before {
+  position: absolute;
+  content: "";
+}
+.header__scroll a {
+  text-decoration: none;
+  color: #ffffff;
+  position: relative;
+}
+.header__scroll-text {
+  font-size: 14px;
+  letter-spacing: 2.8px;
+}
+.header__scroll-arrow {
+  position: absolute;
+  content: "";
+  color: #ffffff;
+  left: -5px;
+  top: 20px;
+  border-bottom: 1px solid #ffffff;
+  border-left: 1px solid #ffffff;
+  width: 14px;
+  height: 14px;
+  -webkit-transform: rotateZ(-45deg);
+          transform: rotateZ(-45deg);
+}
+
+.about {
+  background-image: url(../../../src/images/background_2.png);
+}
+
+.algorythm {
+  background-color: #333333;
+}
+
+.mansion {
+  background-image: url(../../../src/images/background_3.png);
+}
+
+.nav {
+  background-color: #5474fd;
+}
+/*# sourceMappingURL=main.css.map */
